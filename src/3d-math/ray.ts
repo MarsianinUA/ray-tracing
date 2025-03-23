@@ -9,10 +9,10 @@ export class Ray {
     this.dir = direction;
   }
 
-  public get origin() {
+  public get origin(): Point3 {
     return this.orig;
   }
-  public get direction() {
+  public get direction(): Vec3 {
     return this.dir;
   }
 

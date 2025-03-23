@@ -54,10 +54,10 @@ export class Vec3 {
   }
 
   public length() {
-    return Math.sqrt(this.length_squared());
+    return Math.sqrt(this.lengthSquared());
   }
 
-  public length_squared() {
+  public lengthSquared() {
     return this.x * this.x + this.y * this.y + this.z * this.z;
   }
 }
